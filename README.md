@@ -46,3 +46,7 @@ AI assistance is treated as part of the methodology rather than disguised as inv
 ## Status
 
 This is an active public lab notebook. Expect frequent small updates and occasional larger experiments.
+
+## Rights and permissions
+
+See [RIGHTS.md](RIGHTS.md) for copyright scope, AI-authorship limitations, existing licenses, and reuse permissions.
