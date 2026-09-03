@@ -26,6 +26,7 @@ experiments/        Small technical experiments and synthetic examples
 philosophy-of-ai/   Notes at the intersection of philosophy and AI
 reading-notes/      Research and literature notes
 visualizations/     Visualization concepts and small data stories
+website/             Source for neal-vazquez.com and synchronization rules
 ```
 
 ## AI-assisted workflow
@@ -42,6 +43,12 @@ AI assistance is treated as part of the methodology rather than disguised as inv
 4. Do not publish confidential, private, identifying, or security-sensitive information.
 5. Do not fabricate results for the sake of maintaining activity.
 6. Let the repository become more useful through accumulation.
+
+## Website
+
+The complete source for [neal-vazquez.com](https://neal-vazquez.com) is maintained in [`website/`](website/). It mirrors the active ChatGPT Sites deployment and provides an independent, portable source backup.
+
+Every website change must be committed and pushed to this repository in the same work session as the corresponding Site change. See [`website/AGENTS.md`](website/AGENTS.md) and [`website/SOURCE_SYNC.md`](website/SOURCE_SYNC.md).
 
 ## Status
 
