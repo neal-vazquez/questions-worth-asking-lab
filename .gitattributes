@@ -1,0 +1,3 @@
+# Markdown is the primary source material for this research and writing lab.
+# Include it in GitHub language statistics, including documentation paths.
+*.md linguist-detectable=true linguist-documentation=false
