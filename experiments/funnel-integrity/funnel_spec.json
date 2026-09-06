@@ -1,0 +1,77 @@
+{
+  "funnel": {
+    "name": "portfolio_conversion_funnel",
+    "stages": [
+      "targeted",
+      "exposed",
+      "interaction",
+      "assisted",
+      "conversion"
+    ]
+  },
+  "privacy": {
+    "pii_allowed": false,
+    "sensitive_property_names": [
+      "name",
+      "email",
+      "phone",
+      "message",
+      "address",
+      "full_name"
+    ]
+  },
+  "events": [
+    {
+      "event_name": "audience_targeted",
+      "stage": "targeted",
+      "entity": "session",
+      "trigger": "session qualifies for an explicitly defined audience segment",
+      "required_properties": [
+        "session_id",
+        "segment_id"
+      ]
+    },
+    {
+      "event_name": "content_exposed",
+      "stage": "exposed",
+      "entity": "content",
+      "trigger": "meaningful content enters the viewport for the minimum exposure threshold",
+      "required_properties": [
+        "session_id",
+        "content_id",
+        "surface"
+      ]
+    },
+    {
+      "event_name": "portfolio_interaction",
+      "stage": "interaction",
+      "entity": "content",
+      "trigger": "visitor intentionally opens, expands, filters, downloads, or otherwise engages with portfolio content",
+      "required_properties": [
+        "session_id",
+        "content_id",
+        "interaction_type"
+      ]
+    },
+    {
+      "event_name": "decision_assisted",
+      "stage": "assisted",
+      "entity": "journey",
+      "trigger": "visitor reaches a high-intent state that plausibly assists a later outcome",
+      "required_properties": [
+        "session_id",
+        "assist_type"
+      ]
+    },
+    {
+      "event_name": "conversion_completed",
+      "stage": "conversion",
+      "entity": "outcome",
+      "trigger": "visitor completes a defined business outcome",
+      "required_properties": [
+        "session_id",
+        "conversion_type"
+      ]
+    }
+  ]
+}

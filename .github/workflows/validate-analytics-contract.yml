@@ -1,0 +1,32 @@
+name: Validate analytics contract
+
+on:
+  push:
+    paths:
+      - "experiments/funnel-integrity/**"
+      - ".github/workflows/validate-analytics-contract.yml"
+  pull_request:
+    paths:
+      - "experiments/funnel-integrity/**"
+      - ".github/workflows/validate-analytics-contract.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate measurement spec
+        run: |
+          python experiments/funnel-integrity/validate_measurement_spec.py \
+            experiments/funnel-integrity/funnel_spec.json
+      - name: Run tests
+        run: |
+          python -m unittest discover \
+            -s experiments/funnel-integrity/tests \
+            -p 'test_*.py'

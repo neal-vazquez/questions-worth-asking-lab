@@ -10,24 +10,26 @@ The goal is not to present every entry as a finished product. The goal is to doc
 
 ## Areas of work
 
-- **Data science**: analytical methods, evaluation patterns, synthetic examples, visualization ideas, and small technical experiments.
+- **Data science**: analytical methods, evaluation patterns, synthetic examples, measurement design, and small technical experiments.
 - **Artificial intelligence**: model behavior, LLM evaluation, human-in-the-loop systems, retrieval, prompting, and practical AI workflows.
 - **Responsible AI**: transparency, uncertainty, review boundaries, automation design, and the social consequences of deploying AI systems.
 - **Philosophy of technology**: epistemology, agency, cognition, consciousness, interpretation, and the relationship between humans and machines.
-- **Research notes**: concise working notes on papers, concepts, methods, and questions worth revisiting.
+- **Research notes**: concise working notes on concepts, methods, and questions worth revisiting.
 
 ## Repository structure
 
 ```text
-daily/              Dated lab notes and working observations
 ai-workflows/       Reusable AI workflow and evaluation patterns
+daily/              Dated lab notes and working observations
 data-notes/         Data science and analytics notes
-experiments/        Small technical experiments and synthetic examples
-philosophy-of-ai/   Notes at the intersection of philosophy and AI
-reading-notes/      Research and literature notes
-visualizations/     Visualization concepts and small data stories
-website/             Source for neal-vazquez.com and synchronization rules
+experiments/        Small executable experiments and synthetic examples
 ```
+
+## Current experiment
+
+[`experiments/funnel-integrity/`](experiments/funnel-integrity/) turns a decision-first analytics funnel into a machine-readable contract. It includes a Python validator, regression tests, and GitHub Actions CI that checks event semantics, stage coverage, duplicate names, and privacy-sensitive fields.
+
+The experiment extends [`data-notes/decision-first-portfolio-analytics.md`](data-notes/decision-first-portfolio-analytics.md).
 
 ## AI-assisted workflow
 
@@ -43,12 +45,6 @@ AI assistance is treated as part of the methodology rather than disguised as inv
 4. Do not publish confidential, private, identifying, or security-sensitive information.
 5. Do not fabricate results for the sake of maintaining activity.
 6. Let the repository become more useful through accumulation.
-
-## Website
-
-The complete source for [neal-vazquez.com](https://neal-vazquez.com) is maintained in [`website/`](website/). It mirrors the active ChatGPT Sites deployment and provides an independent, portable source backup.
-
-Every website change must be committed and pushed to this repository in the same work session as the corresponding Site change. See [`website/AGENTS.md`](website/AGENTS.md) and [`website/SOURCE_SYNC.md`](website/SOURCE_SYNC.md).
 
 ## Status
 
