@@ -7,7 +7,8 @@ This records repository changes. The book's edition changelog remains in its can
 - docs: reconcile Drive guidance into GitHub state, decisions, active items, and edition history.
 - refactor: organize planning, workflows, sources, and history; retire Drive-first startup.
 - docs: inventory 56 files across 30 folders; retain protected content for private transfer.
-- archive: prepare a minimal Drive entry, native manuscript, and preserved archive.
+- archive: verify the three-entry Drive root, nine moves, and preservation of all 56 original files.
+- verify: native manuscript structure unchanged; START HERE backup, replacement links, and private inventory metadata checked.
 
 ## 2026-09-07: source workflow
 

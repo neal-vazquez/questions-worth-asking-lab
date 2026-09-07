@@ -32,9 +32,11 @@ This is a curated migration of current guidance, not verbatim public republicati
 
 ## Drive arrangement
 
-The intended minimal root is the existing START HERE entry, the existing native manuscript, and `90_ARCHIVE`. The archive retains source files, previous instruction documents, planning artifacts, and backups. The original START HERE is copied before its in-place replacement, preserving old links to the new entry point.
+The verified minimal root contains `00_START_HERE - GitHub`, the existing native manuscript, and `90_ARCHIVE`. The archive retains source files, previous instruction documents, planning artifacts, and backups. The original START HERE was copied before its in-place replacement, preserving old links to the new entry point.
 
-The private migration inventory records before/after paths and IDs for reversal. Changing location does not authorize a sharing change. Native manuscript content is preserved throughout.
+The private migration inventory records before/after paths and IDs for reversal; its file identity, MIME type, parent, and byte count were checked after upload. All 56 original files and 30 original folders remain accounted for. Nine moves were checked against current parents and sharing status. The native START HERE backup matched the original text before replacement; the replacement's text and two GitHub links passed readback.
+
+The manuscript's identity, title, body, styles, date chips, and image structure matched the pre-migration read. Two temporary image-content URLs were excluded because Google rotates those URLs. No manuscript prose or layout was edited, and no original was deleted.
 
 ## Completion boundary
 
