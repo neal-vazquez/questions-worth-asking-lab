@@ -31,7 +31,7 @@ experiments/        Small executable experiments and synthetic examples
 
 The [book workstream](book/README.md) supports the living anthology, including Neal's LinkedIn posts and his own follow-up comments on those posts. It preserves source wording, tracks observations and revisions, links comments to their root posts, and prepares private review packets for editorial selection.
 
-GitHub now directs the book through reconciled state, decisions, and open items. Protected manuscript and source content remain in the minimal Drive archive pending private GitHub transfer. Start with the [next-edition plan](book/planning/NEXT_EDITION.md). New live LinkedIn capture and manuscript incorporation are tracked separately from repository implementation.
+The [private book workspace](https://github.com/neal-vazquez/questions-worth-asking-lab-private) now holds the manuscript, source corpus, publishing material, decisions, and active book tasks. This public lab retains reusable tools and examples. The 56-file Drive transfer is complete, with originals preserved as recovery copies. New live LinkedIn capture and manuscript incorporation remain separate editorial work.
 
 Start with [AGENTS.md](AGENTS.md) and the [documentation map](docs/README.md) before continuing work.
 

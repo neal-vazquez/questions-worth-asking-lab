@@ -1,6 +1,6 @@
 # Book structure
 
-The anthology keeps its established four-part structure. This consolidates durable decisions from the former Book Bible and outline. Detailed unpublished chapter hypotheses remain in the protected archive pending private GitHub custody.
+The anthology keeps its established four-part structure. This consolidates durable decisions from the former Book Bible and outline. Detailed unpublished chapter hypotheses are preserved in the private book workspace.
 
 | Part | Question | Progression |
 | --- | --- | --- |

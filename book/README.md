@@ -1,12 +1,12 @@
 # Questions Worth Asking
 
-GitHub is the working home for the book's direction, decisions, state, plans, and tools. The former Drive instruction layer is retired.
+This public directory contains reusable book tools, synthetic fixtures, and shared workflow documentation. The [private book workspace](https://github.com/neal-vazquez/questions-worth-asking-lab-private) is authoritative for manuscript content, current editorial decisions, active tasks, and publishing preparation. The former Drive instruction layer is retired.
 
-## Read in order
+## Public reference map
 
 1. [Current state](STATE.md)
 2. [Standing decisions](DECISIONS.md)
-3. [Open items](OPEN_ITEMS.jsonl)
+3. [Active book tasks in the private workspace](https://github.com/neal-vazquez/questions-worth-asking-lab-private/blob/main/book/OPEN_ITEMS.jsonl)
 4. [Next edition](planning/NEXT_EDITION.md)
 5. The relevant [editorial workflow](workflows/EDITORIAL.md), [source contract](workflows/SOURCE_CONTRACT.md), or [source map](sources/README.md)
 
@@ -23,7 +23,7 @@ The existing four-part anthology remains the baseline. New posts and Neal's own 
 | `history/` | Editions, completed items, and migration reconciliation |
 | `tools/`, `tests/`, `examples/`, `templates/` | Intake, synthetic tests, and editorial forms |
 
-The repo is public. Full manuscript text, unpublished drafts, private strategy, and raw captures remain protected in Drive pending a private GitHub destination. This is an explicit remaining migration item. The native manuscript retains its formatting and identity during transition.
+The protected transfer is complete. All 56 inventoried Drive files are represented in the private repo, with original stored bytes, rich native exports, source mapping, and checksums. Drive retains native originals for recovery. `OPEN_ITEMS.jsonl` here is intentionally empty: the seven active book tasks moved to the private workspace, and their handoff is recorded in the public closed-item history.
 
 ## Offline tools
 
