@@ -1,20 +1,33 @@
-# Questions Worth Asking: book workstream
+# Questions Worth Asking
 
-The book grows from Neal Vazquez's writing, including the additional thinking he publishes in comments on his own LinkedIn posts. This workstream makes those relationships and later revisions inspectable while preserving the original prose.
+GitHub is the working home for the book's direction, decisions, state, plans, and tools. The former Drive instruction layer is retired.
 
-The existing native Google Doc is the canonical anthology. This public lab provides the working method and tools; the private source archive and manuscript stay in the book's Drive project.
+## Read in order
 
-## Start here
+1. [Current state](STATE.md)
+2. [Standing decisions](DECISIONS.md)
+3. [Open items](OPEN_ITEMS.jsonl)
+4. [Next edition](planning/NEXT_EDITION.md)
+5. The relevant [editorial workflow](workflows/EDITORIAL.md), [source contract](workflows/SOURCE_CONTRACT.md), or [source map](sources/README.md)
 
-- [Next edition](NEXT_EDITION.md): current scope, baseline, and remaining work.
-- [Editorial workflow](EDITORIAL_WORKFLOW.md): acquisition, author follow-ups, selection, and edition checks.
-- [Source map](SOURCE_MAP.md): how to find the current manuscript and earlier captures.
-- [Source contract](SOURCE_CONTRACT.md): exact input and output behavior.
-- [Changelog](CHANGELOG.md): changes to the tooling, distinct from published book editions.
+The existing four-part anthology remains the baseline. New posts and Neal's own comments on his posts extend it without changing verified prose.
 
-## Offline intake and review
+## Organization
 
-Requires Python 3.10 or later and the standard library. Run from the repo root:
+| Location | Contents |
+| --- | --- |
+| This directory | Current state, decisions, active items, and tooling changelog |
+| `planning/` | Next edition, structural decisions, and publishing work |
+| `workflows/` | Editorial procedure and source contract |
+| `sources/` | Source navigation and protected-transfer status |
+| `history/` | Editions, completed items, and migration reconciliation |
+| `tools/`, `tests/`, `examples/`, `templates/` | Intake, synthetic tests, and editorial forms |
+
+The repo is public. Full manuscript text, unpublished drafts, private strategy, and raw captures remain protected in Drive pending a private GitHub destination. This is an explicit remaining migration item. The native manuscript retains its formatting and identity during transition.
+
+## Offline tools
+
+Python 3.10 or later, standard library only. From the repo root:
 
 ```bash
 python book/tools/source_intake.py validate book/examples/synthetic-intake.jsonl
@@ -23,8 +36,6 @@ python book/tools/source_intake.py packet --store private-work/demo-store.json -
 python -m unittest discover -s book/tests -p 'test_*.py'
 ```
 
-These commands use invented demonstration text. They do not retrieve LinkedIn content or represent a real book intake. For actual work, normalize a verified capture to the [source contract](SOURCE_CONTRACT.md) and substitute its private file path. Existing raw exports are retained separately in Drive; this tool does not claim compatibility with an uninspected LinkedIn CSV format.
+These use invented examples. Actual captures follow the source contract and remain private. The store retains observations and revisions; packets group eligible comments with verified root posts. A packet does not edit or publish the book.
 
-The store retains every distinct observation, rejects conflicting identities, and treats an identical import as a no-op. The review packet groups each eligible post with its eligible author comments. Incomplete or unresolved records are counted as held and do not contribute prose to the packet. Every rendered item carries its source ID, revision hash, timestamp status, and source link when available. Packet text is escaped so source markup remains text.
-
-Review packets are candidates for editorial work, not approved editions. Save actual stores and review packets back to the book's existing Drive project after processing. Never commit them or attach them to public CI. All commands report counts rather than source text.
+See [edition history](history/EDITION_HISTORY.md) for the book and [CHANGELOG.md](CHANGELOG.md) for repo changes.

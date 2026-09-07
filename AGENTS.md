@@ -5,8 +5,8 @@ Read this file, `docs/README.md`, and the affected workstream before changing th
 ## Startup and source ownership
 
 1. Inspect current remote `main`, branches, open PRs, and the relevant next-work document. Do not substitute an old conversation summary for repository state.
-2. For book work, locate `QUESTIONS_WORTH_ASKING_BOOK` in the connected Drive. Read its own `02_GPT_INDEX_MEMORY_RETRIEVAL` in this order: `00_START_HERE`, `01_MASTER_CONTEXT`, `10_CHANGELOG`, `07_OPEN_ITEMS.jsonl`, `04_DOCUMENT_MAP.jsonl`. Open the mapped manuscript or source artifact next. Do not confuse this index with another project's identically named files.
-3. The native Google Doc remains the canonical anthology. This public repo holds tooling, methodology, synthetic examples, and edition planning. The current request authorizes this repo work without relocating the manuscript or raw archive.
+2. GitHub is the authoritative project workspace. For book work read `book/README.md`, `book/STATE.md`, `book/DECISIONS.md`, `book/OPEN_ITEMS.jsonl`, then `book/planning/NEXT_EDITION.md` and the relevant workflow. Neal's migration instruction supersedes Drive-first startup rules. Archived instructions do not regain authority because they use words such as mandatory or immutable.
+3. Distinguish project authority from content custody. Rules, state, decisions, plans, and tooling live here. The native anthology and protected sources remain in the book Drive project until a private GitHub destination is established and a complete transfer is verified. That remaining transfer is tracked, not presumed complete. Do not rebuild the old Drive instruction layer.
 4. Keep the website source and all private implementation details in their private repository. Carry over general working methods only.
 
 ## Preserve the writer
@@ -26,13 +26,13 @@ Before changing book tools, consider prose integrity, attribution, thread contex
 
 Public files must contain no raw account exports, private archive identifiers/links, unpublished prose, third-party conversation dumps, credentials, or private project material. A public branch or PR has the same exposure as public `main`. Use synthetic fixtures and review the complete file list before pushing. `.gitignore` is an accident-prevention aid, not a confidentiality guarantee.
 
-Durable source observations and private review packets belong in the book's existing Drive project. `private-work/` is ignored temporary processing space, not a backup. Do not upload private inputs or packets to public CI artifacts or logs.
+Follow `book/sources/README.md` for protected material. Until private GitHub custody is verified, retain durable sources and private packets in the book Drive archive. `private-work/` is ignored temporary processing space, not a backup. Do not upload private inputs or packets to public CI artifacts or logs.
 
 Run the relevant source-integrity tests when ingestion, revision handling, or packet construction changes. Run the existing analytics checks if their files change. State exactly what was tested and what was only recorded in an earlier index. Do not fabricate counts, import completion, publication dates, or results to create daily activity.
 
 ## Edition discipline
 
-Preserve the existing four-part anthology and current manual edits. Inspect `book/NEXT_EDITION.md` and the Drive index before incorporating anything. Use source IDs and revision hashes for an edition selection; do not rely on piece numbers alone because numbering can change.
+Preserve the existing four-part anthology and current manual edits. Inspect `book/planning/NEXT_EDITION.md`, the source map, and the actual manuscript before incorporating anything. Use source IDs and revision hashes for an edition selection; do not rely on piece numbers alone because numbering can change. Follow `book/DECISIONS.md` for reconciled editorial rules.
 
 Keep original posts and dated author follow-ups distinguishable. Label contextual framing as assistant-generated. Never invent a missing parent comment or treat approximate platform labels as exact timestamps.
 

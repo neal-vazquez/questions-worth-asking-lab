@@ -2,7 +2,7 @@
 
 ## 1. Establish the baseline
 
-Read the Drive retrieval layer and canonical anthology before selecting new material. Preserve the current edition and its manual edits. Carry over source IDs already incorporated, including comments attached to earlier pieces, so a repeat capture cannot masquerade as a new essay.
+Read the GitHub state, decisions, active items, and actual anthology before selecting new material. Preserve the current edition and its manual edits. Carry over source IDs already incorporated, including comments attached to earlier pieces, so a repeat capture cannot masquerade as a new essay.
 
 General lessons carried forward from the website work are a discoverable documentation hierarchy, an explicit source of truth, small coherent changes, validation before release, preserved recovery points, and accurate reporting of what actually shipped.
 
@@ -37,7 +37,7 @@ Keep the existing architecture:
 
 These are placement aids, not automatic classifications. Choose each piece's primary home by its question. Avoid duplicating it across parts just because it spans several themes.
 
-Use [templates/edition-selection.json](templates/edition-selection.json) as a private selection ledger. Pin every selected source to its revision hash and record include, hold, exclude, or already-incorporated status. Explain exclusions without deleting their source observations. Identify the existing piece by heading plus source IDs, not its current number alone.
+Use [templates/edition-selection.json](../templates/edition-selection.json) as a private selection ledger. Pin every selected source to its revision hash and record include, hold, exclude, or already-incorporated status. Explain exclusions without deleting their source observations. Identify the existing piece by heading plus source IDs, not its current number alone.
 
 Default treatment: original post, then clearly labeled author follow-ups. A comment can clarify, extend, correct, complicate, or add an aside. Preserve those distinctions without rewriting either passage. If a later comment changes the position, make chronology visible. Use a standalone comment piece only when it has enough context to be intelligible and its sources remain traceable.
 
@@ -49,6 +49,6 @@ Check sequential piece numbers, TOC destinations and indentation, existing image
 
 ## 6. Record the actual result
 
-Update the book's concise changelog and its Drive retrieval state with source additions, author-comment additions, revisions, placement, checks, gaps, and backup reference. Keep repository tooling notes in [CHANGELOG.md](CHANGELOG.md).
+Update the book's concise changelog and the GitHub state and edition history with source additions, author-comment additions, revisions, placement, checks, gaps, and backup reference. Keep repository tooling notes in [CHANGELOG.md](../CHANGELOG.md).
 
 Report capture, incorporation, validation, and publication separately. A working packet is not a released book. Neal handles PDF export unless explicitly requested in the current task. Record public release only after actual distribution or Neal's confirmation. No LinkedIn writing, messaging, engagement, or scheduled action is implied by this workflow.
