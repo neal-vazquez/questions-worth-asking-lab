@@ -1,0 +1,31 @@
+name: Validate book source workflow
+
+on:
+  push:
+    paths:
+      - "book/**"
+      - "AGENTS.md"
+      - "docs/**"
+      - ".github/workflows/validate-book-workflow.yml"
+  pull_request:
+    paths:
+      - "book/**"
+      - "AGENTS.md"
+      - "docs/**"
+      - ".github/workflows/validate-book-workflow.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate synthetic source records
+        run: python book/tools/source_intake.py validate book/examples/synthetic-intake.jsonl
+      - name: Test source integrity and review packets
+        run: python -m unittest discover -s book/tests -p 'test_*.py'
