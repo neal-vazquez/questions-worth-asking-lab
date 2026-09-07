@@ -24,7 +24,7 @@ The supported input is UTF-8 JSONL: one complete JSON object per line, using the
 | `completeness` | `complete` or `partial`. Expand truncated text or mark it partial. If source images carry unrecovered prose required for meaning, do not claim that the text capture is complete. |
 | `comment_scan` | Posts: `not_checked`, `partial`, or `complete_at_capture`. Comments: `not_applicable`. Coverage is per observed root at a stated time, not a guarantee of account-wide or future completeness. |
 
-Use the [synthetic fixture](examples/synthetic-intake.jsonl) for an executable example. All of its prose and links are invented test material.
+Use the [synthetic fixture](../examples/synthetic-intake.jsonl) for an executable example. All of its prose and links are invented test material.
 
 ## Store and reconciliation
 
@@ -42,7 +42,7 @@ An eligible root must be a complete post with author key `neal-vazquez` and veri
 
 The packet groups eligible comments under their root, includes source IDs/revision hashes/timing/coverage, and escapes source text for HTML display. It never renders held prose. Missing exact publication times remain visible and do not by themselves block otherwise grounded text. Sorting uses exact publication time when available, otherwise capture time with a visible warning that this does not establish chronology.
 
-Eligible means ready for source review, not approved for the book. The packet does not apply selections, fact-check claims, verify evidence independently, audit an entire account, or change the canonical manuscript. Use the private [selection template](templates/edition-selection.json) manually to pin reviewed revisions and avoid reincorporating pieces already in an edition.
+Eligible means ready for source review, not approved for the book. The packet does not apply selections, fact-check claims, verify evidence independently, audit an entire account, or change the canonical manuscript. Use the private [selection template](../templates/edition-selection.json) manually to pin reviewed revisions and avoid reincorporating pieces already in an edition.
 
 ## Boundaries and diagnostics
 

@@ -1,4 +1,4 @@
-# Local processing only. Durable book sources and manuscripts remain in Drive.
+# Local processing only. Protected custody follows book/sources/README.md.
 /private-work/
 __pycache__/
 *.py[cod]

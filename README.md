@@ -31,7 +31,7 @@ experiments/        Small executable experiments and synthetic examples
 
 The [book workstream](book/README.md) supports the living anthology, including Neal's LinkedIn posts and his own follow-up comments on those posts. It preserves source wording, tracks observations and revisions, links comments to their root posts, and prepares private review packets for editorial selection.
 
-The canonical native manuscript and source archive remain in the existing Google Drive book project. This public repo contains methodology, tools, synthetic fixtures, and the [next-edition plan](book/NEXT_EDITION.md). New live LinkedIn capture and manuscript incorporation are tracked separately from repository implementation.
+GitHub now directs the book through reconciled state, decisions, and open items. Protected manuscript and source content remain in the minimal Drive archive pending private GitHub transfer. Start with the [next-edition plan](book/planning/NEXT_EDITION.md). New live LinkedIn capture and manuscript incorporation are tracked separately from repository implementation.
 
 Start with [AGENTS.md](AGENTS.md) and the [documentation map](docs/README.md) before continuing work.
 

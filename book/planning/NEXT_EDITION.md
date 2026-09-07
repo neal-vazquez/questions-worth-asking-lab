@@ -1,6 +1,6 @@
 # Next edition: new posts and author follow-ups
 
-Status as of 2026-09-07: repository workflow implemented; new live source capture and manuscript incorporation pending.
+Status as of 2026-09-07: GitHub project authority and reconciled guidance implemented; protected content transfer, new live capture, and manuscript additions remain tracked separately.
 
 ## Outcome
 
@@ -8,13 +8,13 @@ Extend the existing anthology with Neal's new LinkedIn writing and comments on h
 
 ## Baseline and scope
 
-The Drive index records a 63-piece v1.1 release candidate. Reconcile its later publication status before assigning a new release number. Start new work as the next working edition; do not overwrite the accepted milestone or rebuild the reader.
+The reconciled GitHub state records a 63-piece v1.1 release candidate. Reconcile its later publication status before assigning a new release number. Start new work as the next working edition; do not overwrite the accepted milestone or rebuild the reader.
 
 | Work | Current state | Next action |
 | --- | --- | --- |
 | Book rules and source contract | Implemented in this repo | Maintain with tool behavior |
 | Offline observation store and thread packet | Implemented with synthetic coverage | Run against normalized verified sources |
-| Prior intake reconciliation | Source mapped in Drive index | Open actual archive and map already-incorporated IDs |
+| Prior intake reconciliation | Both September source files verified present | Open actual archive and map already-incorporated IDs |
 | New posts since the prior intake | Pending capture | Retrieve full text with author and source evidence |
 | New comments on new and existing posts | Pending capture | Revisit roots and expand available author follow-ups |
 | Selection and placement | Pending actual intake | Pin revisions and map to existing four parts |
@@ -33,4 +33,4 @@ The Drive index records a 63-piece v1.1 release candidate. Reconcile its later p
 
 ## First continuation pass
 
-Read the Drive baseline and inspect the mapped September 1 intake. Normalize verified post/comment relationships and mark incorporated sources in a private selection ledger. Then capture the subsequent writing and author follow-ups, revisiting older roots where available. Produce a private review packet and place the chosen material before updating the manuscript. If live access is unavailable, use the available archive and record the exact missing range; do not represent the historical capture as current.
+Read the GitHub baseline and source map and inspect the mapped September 1 intake. Normalize verified post/comment relationships and mark incorporated sources in a private selection ledger. Then capture the subsequent writing and author follow-ups, revisiting older roots where available. Produce a private review packet and place the chosen material before updating the manuscript. If live access is unavailable, use the available archive and record the exact missing range; do not represent the historical capture as current.
