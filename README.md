@@ -1,6 +1,6 @@
 # Questions Worth Asking Lab
 
-An AI-assisted public research lab exploring data science, artificial intelligence, philosophy, responsible AI, and the questions connecting them.
+An AI-assisted public research lab and book-development workbench exploring data science, artificial intelligence, philosophy, responsible AI, and the questions connecting them.
 
 ## What this is
 
@@ -20,10 +20,20 @@ The goal is not to present every entry as a finished product. The goal is to doc
 
 ```text
 ai-workflows/       Reusable AI workflow and evaluation patterns
+book/               Questions Worth Asking editorial workflow and source tools
 daily/              Dated lab notes and working observations
 data-notes/         Data science and analytics notes
+docs/               Living documentation map
 experiments/        Small executable experiments and synthetic examples
 ```
+
+## Questions Worth Asking: the book
+
+The [book workstream](book/README.md) supports the living anthology, including Neal's LinkedIn posts and his own follow-up comments on those posts. It preserves source wording, tracks observations and revisions, links comments to their root posts, and prepares private review packets for editorial selection.
+
+The canonical native manuscript and source archive remain in the existing Google Drive book project. This public repo contains methodology, tools, synthetic fixtures, and the [next-edition plan](book/NEXT_EDITION.md). New live LinkedIn capture and manuscript incorporation are tracked separately from repository implementation.
+
+Start with [AGENTS.md](AGENTS.md) and the [documentation map](docs/README.md) before continuing work.
 
 ## Current experiment
 

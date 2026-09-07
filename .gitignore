@@ -1,0 +1,6 @@
+# Local processing only. Durable book sources and manuscripts remain in Drive.
+/private-work/
+__pycache__/
+*.py[cod]
+.env
+.env.*

@@ -1,0 +1,19 @@
+{
+  "edition": "next-working-edition",
+  "baseline": {
+    "artifact_locator": null,
+    "backup_locator": null,
+    "publication_status": "unverified"
+  },
+  "selection_fields": {
+    "source_id": "Stable source ID from the private observation store",
+    "revision_sha256": "Pin the exact reviewed revision reported in the packet",
+    "decision": "include | hold | exclude | already_incorporated",
+    "part": "I | II | III | IV | null",
+    "target_heading": "Existing or proposed piece heading",
+    "comment_role": "clarification | extension | correction | counterpoint | aside | null",
+    "editorial_note": "Clearly separate assistant-authored note, when needed"
+  },
+  "selections": [],
+  "note": "Manual editorial template. The intake tool does not validate or apply these selections. Populate privately after source review; never commit real source material or private locators."
+}
