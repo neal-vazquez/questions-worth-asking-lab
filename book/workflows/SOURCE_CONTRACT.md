@@ -34,7 +34,7 @@ An identical observation is a no-op. A later capture is retained. A later textua
 
 Changing kind, author key, or root under an existing ID is an identity conflict and rejects the import. Reconcile a mistaken identity explicitly with the archive and a recorded correction; do not mint a new ID to disguise the problem. Immediate reply context and verification evidence can be resolved in later observations. Conflicting revisions at the same capture instant are rejected, including equivalent timezone representations of that instant.
 
-Imports validate completely before replacing the store. A temporary file, atomic replacement, and exclusive import lock protect an existing store from partial writes and concurrent imports through this tool. If a process dies leaving a lock, verify that no import is active before removing that lock. These local safeguards do not replace durable Drive backups or native manuscript revision history.
+Imports validate completely before replacing the store. A temporary file, atomic replacement, and exclusive import lock protect an existing store from partial writes and concurrent imports through this tool. If a process dies leaving a lock, verify that no import is active before removing that lock. These local safeguards do not replace committed private source snapshots, recovery backups, or native manuscript revision history.
 
 ## Candidate eligibility
 

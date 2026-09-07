@@ -1,5 +1,7 @@
 # Drive to GitHub reconciliation
 
+Historical first-phase record. The transfer described as pending below was subsequently completed in [the private transfer pass](PRIVATE_TRANSFER_2026-09-07.md).
+
 Scope: make GitHub authoritative for book direction, reconcile overlapping instructions, organize the repo, and simplify the existing Drive project. Protected-content transfer remains pending a private GitHub destination.
 
 ## Source coverage and disposition

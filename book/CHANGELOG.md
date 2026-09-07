@@ -1,5 +1,11 @@
 # Book tooling changelog
 
+## Private content migration completed
+
+- Complete the protected 56-file transfer into the private companion repository.
+- Route active book state and seven tasks to the private workspace; retain reusable public tools.
+- Update source custody and workflow pointers; preserve Drive originals.
+
 This records repository changes. The book's edition changelog remains in its canonical native Google Doc.
 
 ## 2026-09-07: GitHub authority migration

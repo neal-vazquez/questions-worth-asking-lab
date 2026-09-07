@@ -1,6 +1,6 @@
 # Publishing work
 
-The long-term objective remains a serious trade nonfiction book and literary representation. This consolidates workflow from the former agenting command center, proposal workbench, research notes, Book Bible, sample-provenance notes, and pipeline. Detailed unpublished proposal language, target rankings, and pipeline records remain protected for private transfer.
+The long-term objective remains a serious trade nonfiction book and literary representation. This consolidates workflow from the former agenting command center, proposal workbench, research notes, Book Bible, sample-provenance notes, and pipeline. Detailed unpublished proposal language, target rankings, and pipeline records now reside in the private book workspace.
 
 ## Priorities
 
@@ -14,4 +14,4 @@ Historical planning ranked a developed work/ambition piece as the strongest firs
 
 Recheck each target's official requirements and availability when preparing a real query. Past windows do not create current deadlines. Keep assistance disclosures accurate. No query or outreach is part of migration.
 
-The former agent pipeline is retained intact. Its data belongs in the private transfer, not a new empty public spreadsheet pretending to replace it.
+The former agent pipeline is preserved as an Excel workbook with a cell-value/formula JSON derivative in the private book workspace.

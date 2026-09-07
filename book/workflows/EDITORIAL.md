@@ -8,7 +8,7 @@ General lessons carried forward from the website work are a discoverable documen
 
 ## 2. Capture original text and its context
 
-Use the existing archive, author-provided text/screenshots, an official export, or a bounded authorized read of the source. Preserve the original capture in Drive and record its locator. Do not make the workflow depend on a scheduled crawler, account engagement, or guessing an unavailable API. Do not infer native export column names before inspecting the actual export.
+Use the existing archive, author-provided text/screenshots, an official export, or a bounded authorized read of the source. Preserve the original capture in the private book repository and record its locator. Do not make the workflow depend on a scheduled crawler, account engagement, or guessing an unavailable API. Do not infer native export column names before inspecting the actual export.
 
 Capture Neal-authored posts plus Neal-authored comments on those posts. Revisit older post threads because new commentary may appear there after the original post date. Record which posts were checked, the capture time, and whether comments were expanded fully, partially, or not checked. A complete-at-capture flag applies only to that observation, never to all future comments or the entire account.
 
@@ -43,7 +43,7 @@ Default treatment: original post, then clearly labeled author follow-ups. A comm
 
 ## 5. Update the manuscript when authorized
 
-Preserve a native backup, apply the selected additions in the canonical Google Doc, and compare source prose exactly. Keep assistant-authored introductions, factual qualifications, anonymized context, and references visibly separate. Preserve prior AI-assistance disclosures rather than reclassifying assisted text as wholly original prose.
+Preserve a native backup and the committed baseline, apply the approved selection to the native manuscript, and compare source prose exactly. Commit a fresh verified export to the private book repository afterward. Keep assistant-authored introductions, factual qualifications, anonymized context, and references visibly separate. Preserve prior AI-assistance disclosures rather than reclassifying assisted text as wholly original prose.
 
 Check sequential piece numbers, TOC destinations and indentation, existing images and emphasis, references and cross-links, established typography, and counts in framing. Preserve front matter: Introduction, About Neal Vazquez by ChatGPT, Back Cover, TOC, standalone Dedication, Part I. Preserve back matter: References, Special Thanks, Changelog, Legal.
 
